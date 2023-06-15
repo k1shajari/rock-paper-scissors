@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Rock Paper Scissorss Game',
+      title: 'Rock Paper Scissors Game',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const MyHomePage(title: 'Rock Paper Scissorss Game'),
+      home: const MyHomePage(title: 'Rock Paper Scissors Game'),
     );
   }
 }
